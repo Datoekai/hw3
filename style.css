@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.login-container {
+    width: 500px;
+    height: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    /*background-color: #ffffff;*/
+    color: lawngreen;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-header span {
+    font-size: 14px;
+}
+
+form {
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.login-btn {
+    width: 100%;
+    height: 60px;
+    margin-left: 2%;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #dee5ec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #3e8e41;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer span {
+    margin-right: 20px;
+}
+
+.other{
+    z-index: 1;
+    width:20% ;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 12px;
+    color: #bec8d2;
+}
+.line{
+     display: flex;
+     -webkit-box-align: center;
+     justify-content: center;
+     position: relative;
+     margin-bottom: 15px;
+     margin-top: 0px;
+ }
+.line:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #dee5ec;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.QR{
+    width: 92%;
+    height: 60px;
+    margin-left: 30px;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.forget{
+    justify-content: center;
+    margin-left: 35%;
+    background-color: #ffffff;
+    color: #337ab7;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    cursor:pointer;
+}
+

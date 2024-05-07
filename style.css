@@ -15,9 +15,10 @@ body {
 
 .login-header {
     /*background-color: #ffffff;*/
-    color: lawngreen;
+    color: #06c755;
     padding: 10px;
     text-align: center;
+    font-size: 28px;
 }
 
 .login-header span {
@@ -138,3 +139,25 @@ a:hover {
     cursor:pointer;
 }
 
+.corporation{
+    position:absolute;
+    bottom:20px;
+    left:40px;
+    color: #cccccc;
+}
+
+.privacy{
+    position: absolute;
+    bottom: 20px;
+    right: 110px;
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.serve{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    color: #cccccc;
+    font-size: 12px;
+}

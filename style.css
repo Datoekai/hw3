@@ -14,7 +14,6 @@ body {
 }
 
 .login-header {
-    /*background-color: #ffffff;*/
     color: #06c755;
     padding: 10px;
     text-align: center;
@@ -41,7 +40,7 @@ input[type="email"], input[type="password"] {
     padding: 10px;
     border: none;
     border-bottom: 2px solid #dee5ec;
-    color: #f9f9f9;
+    color: #000000;
     font-size: 16px;
     font-weight: 700;
 }
